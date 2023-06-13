@@ -127,12 +127,20 @@ footer{
 .row-footer{
     display: flex;
     } 
-.social-footer, .social-footer ul{
+.social-footer{
     display: flex;
     justify-content: space-between;
-    list-style: none;
-    width: 40%;
+    width: 100%;
     margin-bottom: 10px;
+}
+.social-footer ul{
+    padding: 13px;
+    margin: 0px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style: none;
+   
 }
 
 /* End Footer */
