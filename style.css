@@ -38,6 +38,9 @@ body{
     font-size: 30px;
 
 }
+.res_menu{
+    display: none;
+}
 .social-header{
     display: flex;
     justify-content: space-between;
@@ -149,22 +152,20 @@ footer{
     font-size: large;
     line-height: normal;
     letter-spacing: -0.7px;
-    color: white;
+    color: white !important;
     cursor: pointer;
     display: grid;
     text-decoration:none
     
 }
-.res_menu{
-    display: none;
-}
+
 
 /* End Footer */
 
 
 /* media  */
 @media screen and (max-width: 786px) {
-.row-features, .container-fluid{
+.row-features, .container-fluid, .row-footer{
     flex-direction: column;
 }
 .menu, .social-header{
@@ -174,5 +175,8 @@ footer{
     display: block;
 }
 
+.social-footer ul{
+    width: 50%;
+}
 }
 
