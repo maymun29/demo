@@ -25,6 +25,7 @@ body{
     list-style: none;
     padding: 0px;
     margin: 0px;
+    text-decoration:none
    }
 .menu ul{
     display: flex;
@@ -126,21 +127,33 @@ footer{
 }
 .row-footer{
     display: flex;
+    justify-content: space-evenly;
     } 
 .social-footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 25px;
     margin-bottom: 10px;
 }
 .social-footer ul{
     padding: 13px;
     margin: 0px;
     display: flex;
-    width: 40%;
+    width: 15%;
     justify-content: space-between;
     list-style: none;
    
+}
+.list-unstyled,.list-unstyled a{
+    font-size: large;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    color: white;
+    cursor: pointer;
+    display: grid;
+    text-decoration:none
+    
 }
 .res_menu{
     display: none;
