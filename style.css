@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    border: 1px solid red;
 }
 body{
     color: white;
@@ -137,17 +137,29 @@ footer{
     padding: 13px;
     margin: 0px;
     display: flex;
-    width: 50%;
+    width: 40%;
     justify-content: space-between;
     list-style: none;
    
+}
+.res_menu{
+    display: none;
 }
 
 /* End Footer */
 
 
 /* media  */
-@media screen and (min-width: 480px) {
-    
+@media screen and (max-width: 786px) {
+.row-features, .container-fluid{
+    flex-direction: column;
+}
+.menu, .social-header{
+    display: none;
+}
+.res_menu{
+    display: block;
+}
+
 }
 
