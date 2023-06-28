@@ -1,0 +1,12 @@
+.content-about{
+    width: 70%;
+    background-color: black;
+    color:#fff;
+    padding:.2rem;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 250px;
+    border-radius:10px ;
+    text-align: center;
+    font-size: large;
+}
